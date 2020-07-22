@@ -1,6 +1,3 @@
-
-
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -419,10 +416,7 @@ optgroup {
  * Remove most spacing between table cells.
  */
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+
 
 td,
 th {
