@@ -1,0 +1,27 @@
+<form name="houseInterest">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" placeholder="Your Full Name">
+
+  <label for="emailAddress">Email address</label>
+  <input type="email" id="emailAddress" placeholder="Enter email">
+
+  <label for="phone">Phone Number</label>
+  <input type="text" id="phone">
+
+  <input type="checkbox" value="" id="call">
+  <label for="call">
+    I prefer a phone call to set an appointment to see the house.
+  </label>
+
+  <input type="checkbox" value="" id="text">
+  <label for="text">
+    I prefer a text to set an appointment to see the house.
+  </label>
+
+  <input type="checkbox" value="" id="email">
+  <label for="call">
+    I prefer an email to set an appointment to see the house.
+  </label>
+
+  <button type="submit">Submit</button>
+</form>

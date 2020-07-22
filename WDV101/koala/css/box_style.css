@@ -1,0 +1,94 @@
+/* Anthony Hamlin - 10/30/2019 */
+/* CSS Document */
+@import url("koala_style.css");
+@import url(koala_layout.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Structure*/
+#container {
+    width: 960px;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 0 0;
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.banner-center img {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+header {
+    border-radius: 15px 15px 0 0;
+    background-color: black;
+}
+
+
+main {
+    background-color: white;
+}
+
+aside {
+    width: 35%;
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+    margin-right: 8px;
+    padding: 2px 5px 0 9px;
+    border-right: 2px dashed black;
+    background-color: white;
+}
+
+.aside_divider {
+    border-bottom: 2px dashed black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+
+article div {
+    background-color: white;
+}
+
+section {
+    width: 99%;
+    padding: 11px 0 0 9px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+    padding-bottom: 0.9%;
+    margin-bottom: 0.9%;
+    position: relative;
+    border-bottom: 2px dashed black;
+}
+
+footer {
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+    clear: both;
+}
+
+footer li {
+    list-style-type: none;
+    text-decoration: none;
+}

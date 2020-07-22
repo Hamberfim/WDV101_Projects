@@ -1,0 +1,52 @@
+/*Anthony Hamlin*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+p {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    text-indent: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0.1em;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+}
+
+p::first-letter {
+    font-size: 125%;
+}
+
+.caring_items {
+    list-style-type: square;
+    text-indent: 40px;
+}
+
+.caring_steps {
+    list-style-type: none;
+}
+
+.caring_copy {
+    text-indent: 25px;
+}
+
+main ul li p::first-letter {
+    font-size: 125%;
+}
+
+footer p em {
+    margin: 0px 0 0 40px;
+    font-size: 0.8em;
+    color: #939393;
+}
+
+main p a {
+    text-decoration: none;
+}
+
+main p a:hover {
+    background-color: #e0e0e0;
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"Navigate back": false,
+		"Navigate forward": false,
+		"Toggle activity bar": true,
+		"Open files list": false
+	}
+}

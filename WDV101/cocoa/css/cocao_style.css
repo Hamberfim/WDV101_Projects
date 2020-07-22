@@ -1,0 +1,188 @@
+/* Stylesheet for Cocoa */
+/* author: Anthony Hamlin */
+
+/* CDN for --  font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'nerisblack';
+    src: url('Neris-Black-webfont.eot');
+    src: url('Neris-Black-webfont.eot?#iefix') format('embedded-opentype'),
+        url('Neris-Black-webfont.woff2') format('woff2'),
+        url('../web_fonts/neris_black_macroman/Neris-Black-webfont.woff') format('woff'),
+        url('Neris-Black-webfont.ttf') format('truetype'),
+        url('Neris-Black-webfont.svg#nerisblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    border-top: 20px solid #565656;
+    border-left: 20px solid #565656;
+    border-bottom: 20px solid #565656;
+}
+
+header {
+    margin: 0 0 0px 40px;
+    font-size: 1.2em;
+}
+
+header h1 {
+    font-family: 'nerisblack', sans-serif;
+    margin: 30px 0 0px 0;
+    letter-spacing: 0.05rem;
+}
+
+section {
+    margin: 0px 0 0 40px;
+}
+
+section h4,
+h3 {
+    letter-spacing: 0.03rem;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+section strong {
+    color: chocolate;
+}
+
+section a {
+    color: darkcyan;
+    letter-spacing: 0.03rem;
+}
+
+section a:hover {
+    color: #ffffff;
+    background-color: rgb(210, 105, 30, 0.7);
+}
+
+.summary {
+    padding: 10px 5px 7px 15px;
+    background-color: rgb(210, 105, 30, 0.08);
+    border-radius: 0 9px 9px 0;
+    border: 1px solid rgb(86, 86, 86, 0.3);
+    width: 85%;
+    font-size: 80%;
+}
+
+nav {
+    display: block;
+    text-align: left;
+    margin: 30px 0 30px 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+
+nav a {
+    color: #ffffff;
+    background-color: #565656;
+    padding: 0.60rem 1.2rem 0.70rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border-radius: 0 6px 6px 0;
+}
+
+nav a:hover {
+    background-color: chocolate;
+}
+
+.wider {
+    letter-spacing: 0.2em;
+    color: chocolate;
+}
+
+h4.wider {
+    color: black;
+    line-height: 1.7em;
+}
+
+form {
+    margin-top: 1em;
+    border: 2px solid chocolate;
+    padding: 1em;
+    font-size: 16px;
+}
+
+
+
+/* FORM SYTLE */
+fieldset {
+    margin: 10px;
+    padding: 15px;
+    border: solid 2px chocolate;
+    background-color: rgba(229, 151, 72, 0.3);
+    display: block;
+}
+
+legend {
+    color: #000;
+    padding: 0 10px;
+}
+
+label {
+    color: black;
+    margin-bottom: 5px;
+    text-align: right;
+    display: inline;
+
+}
+
+
+fieldset.group {
+    float: none;
+    border: 1;
+    margin: 12px 12px 12px 0;
+    padding: 15px;
+}
+
+input {
+    margin: 0 0 8px 5px;
+}
+
+input.text {
+    background-color: chocolate;
+}
+
+textarea {
+    border: solid 1px #565656;
+    vertical-align: top;
+    display: block;
+    font: 1em sans-serif;
+    margin: 10px 0 5px 0;
+}
+
+select {
+    display: block;
+}
+
+input.button {
+    color: #ffffff;
+    background-color: #565656;
+    padding: 0.60rem 1.2rem 0.70rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border-radius: 0 6px 6px 0;
+    border-style: none;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+
+}
+
+input.button:hover {
+    background-color: chocolate;
+
+}
+
+.titleBubble {
+    border: 2px solid rgb(210, 105, 30);
+    border-radius: 0 6px 6px 0;
+    background-color: rgba(210, 105, 30, 0.08);
+    padding: 5px 12px;
+}

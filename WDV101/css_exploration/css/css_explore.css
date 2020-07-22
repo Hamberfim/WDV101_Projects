@@ -1,0 +1,66 @@
+/* Anthony Hamlin */
+/* box model */
+html,
+body, p {
+    margin: 0px;
+}
+
+.container {
+    background-color: lightblue;
+}
+
+.basic_box {
+    background-color: beige;
+}
+
+.basic_box.margin {
+    margin: 15px 15px 15px 15px;
+}
+
+.basic_box.border {
+    border: 2px dashed black;
+}
+
+.basic_box.padding {
+    padding: 10px;
+}
+
+div p {
+    border: 1px solid orange;
+}
+
+/* HTML button */
+div button {
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+
+/* CSS Button */
+.button_class {
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.href_button {
+    margin: 10px;
+    background-image: linear-gradient(#e5e5e5, #c6c6c6);
+    border: 1px solid #757575;
+    padding: 11px;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: black
+}
+
+.box_shadow {
+    padding: 11px;
+    border-radius: 3px;
+    /* x offset, y offset, blur, spread color */
+    box-shadow: 3px 3px 2px 1px rgba(50, 50, 50, .2);
+    cursor: pointer;
+}

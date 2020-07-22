@@ -1,0 +1,23 @@
+/* Layout Stylesheet for Cocoa */
+/* author: Anthony Hamlin */
+
+
+img.float_right {
+    float: right;
+    margin: 6px;
+    border-radius: 9px 0 0 9px;
+}
+
+figure {
+    float: right;
+    margin: 6px;
+    padding: 2px;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+footer p em {
+    margin: 0px 0 0 40px;
+    font-size: 0.8em;
+    color: #939393;
+}

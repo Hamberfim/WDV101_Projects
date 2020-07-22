@@ -1,0 +1,53 @@
+Color:
+Red:
+#A6032F
+RGB 166, 3, 47
+HSV 344, 98, 65
+CMYK 0, 98, 72, 35
+LAB 35, 59, 24
+
+Blue:
+#3088BF
+RGB 48, 136, 191
+HSV 203, 75, 75
+CMYK 75, 29, 0, 25
+LAB 54, -7, -36
+
+Lt Blue:
+#3DADD9
+RGB 61, 173, 217
+HSV 197, 72, 85
+CMYK 72, 20, 0, 15
+LAB 66, -17, -31
+
+Lt Gray:
+#E0E0E0
+RGB 242, 242, 240
+HSV 60, 1, 95
+CMYK 0, 0, 1, 5
+LAB 95, 0, 1
+
+Brown:
+#59321B
+RGB 89, 50, 27
+HSV 22, 70, 35
+CMYK 0, 44, 70, 65
+LAB 25, 15, 22
+
+
+Caring:
+https://www.dailypuppy.com/care-alaskan-malamute-1202.html
+https://www.petsworld.in/blog/caring-tips-for-alaskan-malamute-dog-breed.html
+
+
+Home/About/breeds:
+http://www.wolfsdenkennel.com
+https://en.wikipedia.org/wiki/Alaskan_Malamute
+https://en.wikipedia.org/wiki/Alaskan_husky
+https://en.wikipedia.org/wiki/Seppala_Siberian_Sleddog
+
+
+images:
+https://commons.wikimedia.org/wiki/File:Malamute_pup.JPG
+https://commons.wikimedia.org/wiki/File:Alaskan_Malamute_6.jpg
+https://commons.wikimedia.org/wiki/File:Red-White_Alaskan_Malamute_female.JPG

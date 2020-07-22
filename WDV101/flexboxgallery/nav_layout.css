@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a {
+    margin: 5%;
+    width: 80%;
+
+}
+
+nav a:hover {
+    margin: 5%;
+    width: 80%;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 860px) {
+    body {
+        background-color: lightblue;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav a {
+        width: 100px;
+        margin: 10px
+    }
+
+    nav a:hover {
+        width: 100px;
+        margin: 10px
+    }
+
+    nav li:first-child {
+        margin-right: auto;
+    }
+}

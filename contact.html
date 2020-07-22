@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anthony Hamlin">
+    <meta name="keywords" content="14119 WDV101 Projects">
+    <meta name="description" content="14119 WDV101 Projects">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/hamberfim_layout.css">
+    <link rel="stylesheet" href="css/hamberfim_style.css">
+    <style>
+        .bkdrop {
+            border: 1px solid #BFB8AE;
+            border-radius: 6px;
+            background-color: rgba(191, 184, 174, 0.1);
+            padding: 12px;
+        }
+
+        .little_bkdrop {
+            border: 1px solid #BFB8AE;
+            border-radius: 6px;
+            background-color: rgba(191, 184, 174, 0.1);
+            padding: 9px 12px;
+        }
+
+        fieldset {
+            margin: 25px 0 0 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="column_control">
+            <div>
+                <img src="images/MeKandinsky_xsm.png" alt="Hamberfim Icon Image" />
+            </div>
+            <div>
+                <h1>Anthony Hamlin</h1>
+                <h3>Learning Omnivore</h3>
+                <h3>Developer</h3>
+                <h3>DMACC CIS Student</h3>
+                <h3>Accidental Dilettante</h3>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="wdv101/index.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html" class="active">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form id="contactForm" name="contactForm" method="post" action="contact_response.php">
+            <fieldset class="bkdrop">
+                <legend class="little_bkdrop">Your Contact Information</legend>
+                <label for="fname">First name: </label><input type="text" id="fname" name="fname" size="25"><br>
+                <label for="lname">Last name: </label><input type="text" id="lname" name="lname" size="25"><br>
+                <label for="email">Email:</label><input type="email" id="email" name="email" size="30"
+                    placeholder="email@somedomain.org">
+            </fieldset>
+            <fieldset class="bkdrop">
+                <legend class="little_bkdrop">Are you interested in one or more of my skills?</legend>
+                <input type="checkbox" id="webDev" value="webDev" name="skill_Interest1"><label for="webDev">Front End
+                    Design</label>
+                <input type="checkbox" id="CSS" value="CSS" name="skill_Interest2"><label for="CSS">CSS</label>
+                <input type="checkbox" id="HTML" value="HTML" name="skill_Interest3"><label for="HTML">HTML</label>
+                <input type="checkbox" id="JavaScript" value="JavaScript" name="skill_Interest4"><label
+                    for="JavaScript">JavaScript</label>
+                <input type="checkbox" id="Python" value="Python" name="skill_Interest5"><label for="Python">
+                    Python</label>
+                <input type="checkbox" id="Java" value="Java" name="skill_Interest6"><label for="Java"> Java</label>
+            </fieldset>
+            <fieldset class="bkdrop">
+                <legend class="little_bkdrop">How did you find me?</legend>
+                <input type="radio" id="googleSearch" name="found" value="googleSearch"><label for="googleSearch">
+                    Google Search</label><br>
+                <input type="radio" id="BingSearch" name="found" value="BingSearch"><label for="BingSearch"> Bing
+                    Search</label><br>
+                <input type="radio" id="duckduckGo" name="found" value="duckduckGo"><label for="duckduckGo"> Duck Duck
+                    Go Search</label><br>
+                <input type="radio" id="referred" name="found" value="referred"><label for="referred"> Referred by
+                </label> <input type="text" id="referredby" name="referredby" placeholder="Name"><br>
+            </fieldset>
+            <fieldset class="bkdrop">
+                <legend class="little_bkdrop">Your Message</legend>
+                <label for="Subject">Subject: </label>
+                <select name="sendMessage" id="sendMessage">
+                    <option value="hireMe" selected>Interested in Hiring Me Full-time</option>
+                    <option value="contractWork">Offer Me Contract work</option>
+                    <option value="moreInfo">Request More Information</option>
+                    <option value="interview">Set up an Interview</option>
+                </select><br><br>
+                <label for="Message">Comment or Message: </label><br>
+                <textarea name="message" rows="8" cols="45">
+                </textarea><br>
+                <label for="submit" name="submit" value=""></label><input type="submit" id="submit"
+                    value="Submit"><input type="submit" value="Cancel">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

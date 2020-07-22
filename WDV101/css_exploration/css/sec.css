@@ -1,0 +1,15 @@
+section {
+  padding: 2em;
+}
+
+section h1 {
+  font-size: 4em;
+  margin: 1em auto;
+  width: 70%;
+}
+
+section h1::before {
+  content: ' ';
+  border-top: 8px solid #000;
+}
+/*# sourceMappingURL=sec.css.map */

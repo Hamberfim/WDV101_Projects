@@ -1,0 +1,14 @@
+section {
+    padding: 2em;
+
+    h1 {
+        font-size: 4em;
+        margin: 1em auto;
+        width: 70%;
+
+        &::before {
+            content: ' ';
+            border-top: 8px solid #000;
+        }
+    }
+}

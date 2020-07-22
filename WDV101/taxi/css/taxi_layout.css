@@ -1,0 +1,22 @@
+/* Stylesheet for Taxi */
+/* author: Anthony Hamlin */
+
+
+p {
+    color: firebrick;
+    
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: blueviolet;
+    background-color: lightgoldenrodyellow;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: sans-serif;
+}

@@ -1,0 +1,176 @@
+/* Layout for hamberfim.com */
+/* author: Anthony Hamlin */
+/*Color Scheme
+Blue:
+#117CD9
+RGB 17, 124, 217
+HSV 208, 92, 85
+CMYK 92, 43, 0, 15
+LAB 51, 7, -55
+------------------
+LT_Tan:
+#D9B777
+RGB 217, 183, 119
+HSV 39, 45, 85
+CMYK 0, 16, 45, 15
+LAB 76, 4, 37
+------------------
+LT_Gray:
+#BFB8AE
+RGB 191, 184, 174
+HSV 35, 9, 75
+CMYK 0, 4, 9, 25
+LAB 75, 1, 6
+------------------
+Red:
+#D93636
+RGB 217, 54, 54
+HSV 0, 75, 85
+CMYK 0, 75, 75, 15
+LAB 49, 62, 39
+------------------
+Black:
+#0D0D0D
+RGB 13, 13, 13
+HSV 0, 0, 5
+CMYK 0, 0, 0, 95
+LAB 4, 0, 0
+*/
+
+/* main structure: header - body - nav - main - footer */
+html,
+body {
+    height: 140%;
+}
+
+body {
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0D0D0D;
+    border-top: 20px solid #BFB8AE;
+    border-right: 20px solid #BFB8AE;
+    border-left: 20px solid #BFB8AE;
+    border-bottom: 20px solid #BFB8AE;
+}
+
+header {
+    margin: 0 40px 0 40px;
+    padding: 1.2em 0 0 0;
+}
+
+header h1 {
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 31px 0 20px 28px;
+}
+
+header h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 10px 28px;
+}
+
+p {
+    text-indent: 25px;
+}
+
+p::first-letter {
+    font-size: 125%;
+}
+
+nav {
+    display: block;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    background-color: #BFB8AE;
+    padding: 0.60rem 1.2rem 0.70rem;
+    text-decoration: none;
+    letter-spacing: 0.07em;
+    border-radius: 4px;
+
+}
+
+nav a:hover {
+    background-color: #D93636;
+}
+
+.active {
+    background-color: #D93636;
+}
+
+main {
+    margin: 0 40px 0 40px;
+}
+
+main h3 {
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 10px 0px;
+}
+
+main li {
+    list-style: square;
+}
+
+main a {
+    text-decoration: none;
+    color: #117CD9;
+}
+
+main a:hover {
+    color: #fff;
+    text-decoration: underline;
+    background-color: #D93636;
+}
+
+.strong_plus {
+    font-size: 1.4em;
+}
+
+.em_smaller {
+    font-size: 0.7em;
+}
+
+footer {
+    margin: 0 40px 0 40px;
+}
+
+
+
+/* detail structure control */
+.column_control {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+fieldset {
+    margin: 10px;
+    padding: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+
+}
+
+input {
+    margin: 0 0 8px 5px;
+}
