@@ -1,2 +1,2 @@
-# WDV101_Projects
-Homework projects for WDV101 
+### WDV101 Homework Projects
+Homework projects completed for WDV101 
